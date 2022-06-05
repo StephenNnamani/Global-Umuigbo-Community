@@ -1,5 +1,4 @@
-import "fmt"
-
+package server.users
 // User represents data about a every new user.
 type User struct {
 	ID          string `json:"id"`
@@ -12,57 +11,3 @@ type User struct {
 	state       string `json:"state"`
 	dPic        string `json:"dPic"`
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
